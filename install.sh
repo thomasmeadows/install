@@ -11,23 +11,17 @@ apt-get install python3.2 -y
 apt-get install git -y
 git config --global user.name "Thomas Meadows"
 git config --global user.email "thomasmeadows@gmail.com"
-apt-get build-dep plasma-desktop
-apt-get install plasma-desktop -y
-apt-get build-dep openbox
-apt-get install openbox obconf -y
 apt-get build-dep spotify-client
 apt-get install spotify-client -y
-apt-get build-dep lxde
-apt-get install lxde -y
 apt-get install -y mongodb-org
 apt-get install apache2 -y
 apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
 apt-get install curl -y
 apt-get install wget -y
-apt-get install --yes build-essential
+apt-get install build-essential -y
 apt-get install -f -y
 apt-get autoremove -y
 mysql_install_db
 /usr/bin/mysql_secure_installation
-#ssh-keygen -t rsa -b 4096 -C "thomasmeadows@gmail.com"
+#ssh-keygen -t rsa -b 4096 -C "thomasmeadows"
 #get spotify at http://repository.spotify.com/pool/non-free/s/spotify-client/

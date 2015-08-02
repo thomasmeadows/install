@@ -16,8 +16,10 @@ apt-get install spotify-client -y
 apt-get install -y mongodb-org
 apt-get install apache2 -y
 apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+apt-get install php5
 apt-get install curl -y
 apt-get install wget -y
+apt-get install chromium -y
 apt-get install build-essential -y
 apt-get install -f -y
 apt-get autoremove -y

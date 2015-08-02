@@ -22,6 +22,9 @@ apt-get install wget -y
 apt-get install chromium -y
 apt-get install build-essential -y
 apt-get install -f -y
+apt-get install python-pip -y
+apt-get install python3-pyqt5
+apt-get install python-pyqt5 -y
 apt-get autoremove -y
 mysql_install_db
 /usr/bin/mysql_secure_installation

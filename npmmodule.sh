@@ -13,4 +13,5 @@ npm install -g grunt-cli
 npm install -g angular
 npm install -g forever
 npm install -g sails
+npm install -g bower
 sudo ln -s /home/thomas/npm-global/bin/* /usr/bin

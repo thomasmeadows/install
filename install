@@ -26,7 +26,6 @@ apt-get install -f -y
 apt-get install python-pip -y
 apt-get install python3-pyqt5
 apt-get install python-pyqt5 -y
-apt-get install apt-transport-https -y
 apt-get autoremove -y
 mysql_install_db
 /usr/bin/mysql_secure_installation

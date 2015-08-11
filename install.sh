@@ -1,3 +1,6 @@
+cd ~
+HOME=$(pwd)
+cd $pwd
 apt-get install python-software-properties -y
 apt-get install software-properties-common -y
 apt-get update

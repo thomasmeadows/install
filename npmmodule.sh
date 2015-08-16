@@ -14,4 +14,6 @@ npm install -g angular
 npm install -g forever
 npm install -g sails
 npm install -g bower
+npm install -g electron-prebuilt
+npm install -g electron-packager
 sudo ln -s /home/thomas/npm-global/bin/* /usr/bin

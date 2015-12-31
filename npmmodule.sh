@@ -16,4 +16,8 @@ npm install -g sails
 npm install -g bower
 npm install -g electron-prebuilt
 npm install -g electron-packager
+npm install -g tsd
+npm install -g typescript
 sudo ln -s /home/thomas/npm-global/bin/* /usr/bin
+echo "sudo ln -s /home/thomas/npm-global/bin/* /usr/bin" | sudo tee ~/npm-global/link.sh
+chmod +x ~/npm-global/link.sh
